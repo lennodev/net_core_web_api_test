@@ -1,1 +1,4 @@
 testing SVN
+
+
+dotnet new webapi -o net_core_web_api_test

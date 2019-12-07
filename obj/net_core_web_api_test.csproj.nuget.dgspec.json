@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/niueva/dev/net_core/workspace/net_core_web_api_test/net_core_web_api_test.csproj": {}
+  },
+  "projects": {
+    "/Users/niueva/dev/net_core/workspace/net_core_web_api_test/net_core_web_api_test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/niueva/dev/net_core/workspace/net_core_web_api_test/net_core_web_api_test.csproj",
+        "projectName": "net_core_web_api_test",
+        "projectPath": "/Users/niueva/dev/net_core/workspace/net_core_web_api_test/net_core_web_api_test.csproj",
+        "packagesPath": "/Users/niueva/.nuget/packages/",
+        "outputPath": "/Users/niueva/dev/net_core/workspace/net_core_web_api_test/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/niueva/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
