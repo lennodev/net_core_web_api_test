@@ -11,11 +11,10 @@ pool:
 
 steps:
 - task: UseDotNet@2
-  displayName: 'Install .net core 3.0 (preview)'
+  displayName: 'Use dotnet sdk 3.x'
   inputs:
-    packageType: sdk
-    version: '3.0.100-preview6-012264'
-    installationPath: $(Agent.ToolsDirectory)/dotnet
+    version: 3.x
+    includePreviewVersions: true
     
 - task: DotNetCoreCLI@2
   displayName: Build
