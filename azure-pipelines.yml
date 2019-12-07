@@ -15,6 +15,12 @@ steps:
   inputs:
     version: 3.x
     includePreviewVersions: true
+
+- task: DotNetCoreCLI@2
+  displayName: Restore
+  inputs:
+    command: restore
+    projects: '$(Parameters.RestoreBuildProjects)'
     
 - task: DotNetCoreCLI@2
   displayName: Build
