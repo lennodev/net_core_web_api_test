@@ -35,3 +35,6 @@
 /Users/niueva/dev/net_core/workspace/net_core_web_api_test/obj/Debug/netcoreapp3.0/net_core_web_api_test.csproj.CopyComplete
 /Users/niueva/dev/net_core/workspace/net_core_web_api_test/obj/Debug/netcoreapp3.0/net_core_web_api_test.dll
 /Users/niueva/dev/net_core/workspace/net_core_web_api_test/obj/Debug/netcoreapp3.0/net_core_web_api_test.pdb
+/Users/niueva/dev/net_core/workspace/net_core_web_api_test/bin/Debug/netcoreapp3.0/System.Data.SqlClient.dll
+/Users/niueva/dev/net_core/workspace/net_core_web_api_test/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp2.1/System.Data.SqlClient.dll
+/Users/niueva/dev/net_core/workspace/net_core_web_api_test/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.1/System.Data.SqlClient.dll
