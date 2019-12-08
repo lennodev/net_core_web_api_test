@@ -31,7 +31,7 @@ namespace net_core_web_api_test.Controllers
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = rng.Next(-20, 55),
-                Summary = Summaries[rng.Next(Summaries.Length)] + " Testing....."
+                Summary = Summaries[rng.Next(Summaries.Length)] + " Eva is pig pig....."
             })
             .ToArray();
         }
